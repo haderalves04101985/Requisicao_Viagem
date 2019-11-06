@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="rc_viagem.jnlp">
+  <information>
+    <title>rc_viagem</title>
+    <vendor>IFNMG</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\FastInfoset-1.2.15.jar" size="311876" download="eager" />
+    <jar href="lib\antlr-2.7.7.jar" size="445288" download="eager" />
+    <jar href="lib\byte-buddy-1.9.11.jar" size="3274079" download="eager" />
+    <jar href="lib\classmate-1.3.4.jar" size="65100" download="eager" />
+    <jar href="lib\dom4j-2.1.1.jar" size="323600" download="eager" />
+    <jar href="lib\hibernate-commons-annotations-5.1.0.Final.jar" size="76204" download="eager" />
+    <jar href="lib\hibernate-core-5.4.4.Final.jar" size="7135700" download="eager" />
+    <jar href="lib\istack-commons-runtime-3.0.7.jar" size="25523" download="eager" />
+    <jar href="lib\jandex-2.0.5.Final.jar" size="187548" download="eager" />
+    <jar href="lib\javassist-3.24.0-GA.jar" size="777669" download="eager" />
+    <jar href="lib\javax.activation-api-1.2.0.jar" size="56674" download="eager" />
+    <jar href="lib\javax.persistence-api-2.2.jar" size="164556" download="eager" />
+    <jar href="lib\jaxb-api-2.3.1.jar" size="128076" download="eager" />
+    <jar href="lib\jaxb-runtime-2.3.1.jar" size="1093432" download="eager" />
+    <jar href="lib\jboss-logging-3.3.2.Final.jar" size="66469" download="eager" />
+    <jar href="lib\jboss-transaction-api_1.2_spec-1.1.1.Final.jar" size="26290" download="eager" />
+    <jar href="lib\jfoenix-8.0.7.jar" size="2631271" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\stax-ex-1.8.jar" size="36073" download="eager" />
+    <jar href="lib\txw2-2.3.1.jar" size="70288" download="eager" />
+    <jar href="rc_viagem.jar" size="16003" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="rc_viagem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="rc_viagem.Rc_viagem"  name="rc_viagem" />
+  <update check="always"/>
+</jnlp>
